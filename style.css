@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+
+/* COMMONS*/
+
+body {
+    font-family: Alkatra;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 28px;
+    color: #f3eded; /* add this line */
+}
+
+/* Add a selector for the flex container */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+/*HEADER*/
+section.header img {
+    text-align: center;
+}
+
+section.header img {
+    max-width: 180px;
+    border-radius: 50; /* added 'px' unit */
+}
+
+
+body {
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGxnMzlzcTBrYzBza3cyOWptcnY3MjVseHd4MzgxZ2lmdWxiYm04OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5RMDgoIQSlUmRvsiMN/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 220%;
+  }
