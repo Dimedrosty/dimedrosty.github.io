@@ -36,5 +36,39 @@ section.header img {
 body {
     background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGxnMzlzcTBrYzBza3cyOWptcnY3MjVseHd4MzgxZ2lmdWxiYm04OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5RMDgoIQSlUmRvsiMN/giphy.gif');
     background-repeat: no-repeat;
-    background-size: 100% 220%;
+    background-size: 100% 150%;
+  }
+  .links {
+    text-align: center; /* Centrar los links horizontalmente */
+  }
+  
+  .link-item {
+    display: inline-block; /* Mostrar los links en línea */
+    margin: -5px; /* Agregar espacio entre los links */
+    transition: all 0.3s ease-in-out; /* Agregar efecto de transición */
+  }
+  .link-item a {
+    color: #33ccff; /* Color del texto del link */
+    text-decoration: none; /* Quitar subrayado del link */
+    font-weight: bold; /* Poner el texto del link en negrita */
+    font-size: 20px; /* Tamaño del texto del link */
+    padding: 15px; /* Agregar espacio entre el texto del link y el borde */
+  }
+
+  .link-item a:hover {
+    color: #ffffff; /* Color del texto del link al pasar el mouse */
+  }
+  
+  .link-item a:active {
+    color: #ffffff; /* Color del texto del link al hacer clic */
+  }
+  .link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .link-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
   }
