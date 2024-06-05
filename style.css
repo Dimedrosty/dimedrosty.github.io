@@ -39,34 +39,31 @@ body {
     background-size: 100% 150%;
   }
   .links {
-    text-align: center; /* Centrar los links horizontalmente */
+    text-align: center;
   }
   
   .link-item {
-    display: inline-block; /* Mostrar los links en línea */
-    margin: -5px; /* Agregar espacio entre los links */
-    transition: all 0.3s ease-in-out; /* Agregar efecto de transición */
+    display: inline-block;
+    margin: 10px; /* Adjusted margin value */
+    transition: all 0.3s ease-in-out;
   }
+  
   .link-item a {
-    color: #33ccff; /* Color del texto del link */
-    text-decoration: none; /* Quitar subrayado del link */
-    font-weight: bold; /* Poner el texto del link en negrita */
-    font-size: 20px; /* Tamaño del texto del link */
-    padding: 15px; /* Agregar espacio entre el texto del link y el borde */
+    color: #33ccff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px; /* Adjusted padding value */
   }
-
+  
   .link-item a:hover {
-    color: #ffffff; /* Color del texto del link al pasar el mouse */
+    color: #ffffff;
   }
   
   .link-item a:active {
-    color: #ffffff; /* Color del texto del link al hacer clic */
+    color: #ffffff;
   }
-  .link-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+  
   .link-item img {
     width: 24px;
     height: 24px;
